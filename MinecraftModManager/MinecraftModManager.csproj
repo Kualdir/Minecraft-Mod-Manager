@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <SignAssembly>false</SignAssembly>
+    <ApplicationIcon>Papirus-Team-Papirus-Apps-Minecraft.ico</ApplicationIcon>
+    <StartupObject>MinecraftModManager.App</StartupObject>
+    <Version>0.1.0</Version>
+    <Authors>Kualdir</Authors>
+    <Company>KualCo</Company>
+    <Product>Minecraft Mod Manager</Product>
+    <Description>A minecraft mod manager</Description>
+    <AssemblyName>MinecraftModManager</AssemblyName>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageIconUrl />
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
